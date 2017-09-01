@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Permit Information</title>
+    <link rel="stylesheet" href="/style/modules.css">
   </head>
   <body>
     <header>
@@ -32,5 +33,17 @@
       </ul>
     </footer>
 
+    <div id="map"></div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZsIpGjvTxN4SveCG7uZutz6NOLRAmGSo&callback=initMap"
+    async defer></script>
+
+    <script src="scripts/models/permits.js"></script>
+    <script src="scripts/views/mapView.js"></script>
   </body>
 </html>
