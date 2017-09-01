@@ -2,12 +2,21 @@
   padding-top: 20px;
   font-size: 3em;
 }
-
-nav li {
+.menu {
   display: none;
-  text-align: center;
   list-style: none;
+  margin-left: -15%;
+}
 
+.menuLi {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+  width: 60%;
+  padding-right: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  z-index: 3;
 }
 
 @media screen and (min-width: 800px) {
