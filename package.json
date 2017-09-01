@@ -1,0 +1,26 @@
+{
+  "name": "seattle-building-permit-map",
+  "version": "1.0.0",
+  "description": "A map that displays recent building permits in the Seattle area.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "pg": "^7.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztaylor2/seattle-building-permit-map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ztaylor2/seattle-building-permit-map/issues"
+  },
+  "homepage": "https://github.com/ztaylor2/seattle-building-permit-map#readme"
+}
