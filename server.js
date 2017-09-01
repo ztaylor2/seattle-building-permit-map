@@ -1,13 +1,13 @@
 'use strict';
 
-const pg = require('pg');
 const express = require('express');
 const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 3000;
 const app = express();
 
-// database stuff
+// database stuff which we aren't using yet
 
+// const pg = require('pg');
 // const conString = process.env.DATABASE || 'postgres://localhost:5432/kilovolt';
 // const client = new pg.Client(conString);
 //
