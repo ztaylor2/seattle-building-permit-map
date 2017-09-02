@@ -1,9 +1,4 @@
-
-
-
-
-
-
-.map img {
-  height: 1420px;
+#map {
+  height: 900px;
+  width: 900px;
 }

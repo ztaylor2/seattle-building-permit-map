@@ -28,9 +28,10 @@
         <!-- place over hero img  -->
         <img src="img/seattle.png">
       </div>
-      <section class="map">
-        <img src="http://via.placeholder.com/1080x1920">
-      </section>
+
+
+      <div id="map"></div>
+
     </main>
     <footer>
       <ul>
@@ -40,6 +41,21 @@
         <li>Seattle Open Data link</li>
       </ul>
     </footer>
-  <script type="text/javascript" src="scripts//views/navView.js"></script>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <script src="scripts/models/mapKey.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZsIpGjvTxN4SveCG7uZutz6NOLRAmGSo&callback=initMap"
+    async defer></script>
+
+    <script src="scripts/models/permits.js"></script>
+    <script src="scripts/views/mapView.js"></script>
+
+    <script type="text/javascript" src="scripts//views/navView.js"></script>
   </body>
 </html>
