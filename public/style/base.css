@@ -1,8 +1,7 @@
 body {
-  background-image: url('http://bgfons.com/upload/industrial_texture687.jpg');
+  background-image: url('http://i.imgur.com/pyEkddd.jpg');
   height: 100%;
    background-position: center;
-   background-repeat: no-repeat;
    background-size: cover;
 }
 nav {
@@ -12,12 +11,14 @@ nav {
   z-index: 3;
 }
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 footer {
   width: 100%;
   text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 footer li {
   display: inline-block;
@@ -31,10 +32,7 @@ footer li {
   background-color: rgba(0, 0, 0, 0.06);
   z-index: -1;
 }
-img {
-  max-width:100%
 
-}
 #title {
   color: #00A000;
   background-color: rgba(0, 0, 0, 0.40);
