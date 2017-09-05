@@ -192,6 +192,7 @@ function loadMarkers(data) {
     var latLng = new google.maps.LatLng(coords[1],coords[0]);
     var marker = new google.maps.Marker({
       position: latLng,
+      icon: '../../favicons/favicon-32x32.png',
       map: map
     });
   }
