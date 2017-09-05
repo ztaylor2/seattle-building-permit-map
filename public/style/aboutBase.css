@@ -1,5 +1,19 @@
-body {
+main {
+  background-color: darkgrey;
   background-image: url("/img/cnxn.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top;
+  background-size: 320%;
+}
+
+.about-us img {
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 700px) and (orientation: landscape) {
+
+  body {
+    background-position: left;
+    background-size: cover;
+  }
 }
