@@ -25,6 +25,23 @@ footer li {
   text-align: center;
   font-size: 1em;
 }
+
+footer li a:link {
+    color: blue;
+}
+
+footer li a:visited {
+    color: #4C6A92;
+}
+
+footer li a:hover {
+    color: #DC4C46;
+}
+
+footer li a:active {
+    color: #838487;
+}
+
 .hero-image {
   max-width:960px;
   margin:1rem auto;
