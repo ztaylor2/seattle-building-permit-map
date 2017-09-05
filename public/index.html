@@ -54,14 +54,18 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
 
-    <script src="scripts/models/mapKey.js"></script>
+    <script type="text/javascript" src="scripts/models/mapKey.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZsIpGjvTxN4SveCG7uZutz6NOLRAmGSo&callback=initMap"
     async defer></script>
 
-    <script src="scripts/models/permits.js"></script>
-    <script src="scripts/views/mapView.js"></script>
+    <script type="text/javascript" src="scripts/views/mapView.js"></script>
+    <script type="text/javascript" src="scripts/models/permits.js"></script>
 
-    <script type="text/javascript" src="scripts//views/navView.js"></script>
+    <script type="text/javascript" src="scripts/views/navView.js"></script>
+
+    <script type="text/javascript">
+      app.Permits.grabData();
+    </script>
   </body>
 </html>
