@@ -18,23 +18,37 @@
   z-index: 4;
 }
 
+
 @media screen and (min-width: 800px) {
 
-nav {
-  display: inline-block;
-  width: 100%;
-  margin-left: 0;
-  text-align: center;
-}
+  nav {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
 
-#hamburger {
-  display: none;
-}
+  #hamburger {
+    display: none;
+  }
 
-.menuLi {
-  display: inline-block;
-  font-size: 3em;
-  
+  .menuLi {
+    display: inline-block;
+    font-size: 3em;
+  }
+
+  #map {
+      position: relative;
+      height: 600px;
+      width: 1080px;
+      max-width: 100%;
+      overflow: hidden;
+      margin: auto;
+  }
+
+
+  .details {
+    color: #FFFA6D;
   }
 
 }
