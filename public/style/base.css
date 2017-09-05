@@ -21,15 +21,26 @@ footer li {
 
 .hero-image {
    position: relative;
+   display: inherit;
+   content: normal;
    margin-bottom: 3em;
 }
+#title{
+  background:rgba(255,255,255,0.5);
+  color: #00A000;
+  position: absolute;
+  bottom: -0.5em;
+  left: 4%;
 
-#title {
+
+}
+
+/*#title {
    position: absolute;
-   /*text-align: center;*/
+   text-align: left;
    color: #00A000;
    bottom: 0;
    left: 5%;
    width: 100%;
    max-width: 100%;
-}
+}*/
