@@ -1,9 +1,35 @@
 #map {
     position: relative;
+<<<<<<< HEAD
     height: 37.5em;
     min-width: 50em;
     width: 62.5em;
+=======
+    height: 900px;
+    width: 700px;
+>>>>>>> master
     max-width: 100%;
     overflow: hidden;
     margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+
+  #map {
+      position: relative;
+      height: 600px;
+      width: 1080px;
+      max-width: 100%;
+      overflow: hidden;
+      margin: auto;
+  }
+
+.aboutUs {
+  list-style: none;
+}
+
+.about-us img {
+  border-radius: 50%;
+  width: 20%;
+
 }
