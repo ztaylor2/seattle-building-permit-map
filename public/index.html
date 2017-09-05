@@ -6,15 +6,27 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="shortcut icon" href="img/crane2.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/modules.css">
     <link rel="stylesheet" href="style/layout.css">
 
-    <!-- Open graph meta tag -->
+
+    <!-- Open graph meta tags -->
     <meta property="og:title" content="Building Permit Project" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="img/seattle.png" />
+
+    <!-- Favicon meta tags -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+
   </head>
   <body>
     <header>
@@ -22,29 +34,37 @@
         <i id="hamburger" class="fa fa-bars" aria-hidden="true"></i>
         <ul class="menu">
           <li class="menuLi">Home</li>
-          <li class="menuLi">About</li>
           <li class="menuLi">Filter 1</li>
+          <li class="menuLi"><a href="about.html">About</a></li>
           <li class="menuLi">Filter 2</li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="hero-image">
-        <h1 id="title">BUILDING PERMIT PROJECT</h1>
         <!-- place over hero img  -->
+        <h1 id="title">BUILDING PERMIT PROJECT</h1>
         <img src="img/seattle.png">
       </div>
 
 
       <div id="map"></div>
 
+      <section class="about-us">
+        <ul>
+          <li><img src="img/brandon.jpg" />Brandon Pic</li>
+          <li><img src="img/gregory.jpg" />Gregory Pic</li>
+          <li><img src="img/tom.jpg" />Thomas Pic</li>
+          <li><img src="img/zach.jpg" />Zach Pic</li>
+        </ul>
+      </section>
+
     </main>
     <footer>
-      <ul>
-        <li>Title</li>
-        <li>Copyright Info</li>
-        <li>Google Maps API link</li>
-        <li>Seattle Open Data link</li>
+      <ul>Where's the Construction | </li>
+        <li>&copy; 2017  | </li>
+        <li><a href="https://www.google.com/maps">Google Maps</a> | </li>
+        <li><a href="https://data.seattle.gov/Permitting/Building-Permits-Current/mags-97de/">Seattle Open Data</a></li>
       </ul>
     </footer>
 

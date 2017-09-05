@@ -1,35 +1,43 @@
+body {
+  background-image: url('http://bgfons.com/upload/industrial_texture687.jpg');
+  height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 nav {
   width: 100%;
   height: 3em;
   margin-left: 90%;
+  z-index: 3;
 }
-
 img {
   width: 100%;
 }
 
-
 footer {
   width: 100%;
+  text-align: center;
 }
-
 footer li {
   display: inline-block;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
-
 .hero-image {
-   position: relative;
-   margin-bottom: 3em;
+  max-width:960px;
+  margin:1rem auto;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.06);
 }
+img {
+  max-width:100%
 
+}
 #title {
-   position: absolute;
-   /*text-align: center;*/
-   color: #00A000;
-   bottom: 0;
-   left: 5%;
-   width: 100%;
-   max-width: 100%;
+  color: #00A000;
+  background-color: rgba(0, 0, 0, 0.40);
+  width:50%;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
 }
