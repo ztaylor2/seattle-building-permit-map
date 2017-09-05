@@ -1,29 +1,40 @@
 #map {
     position: relative;
-    height: 900px;
-    width: 700px;
+    height: 37.5em;
+    min-width: 50em;
+    width: 62.5em;
     max-width: 100%;
     overflow: hidden;
     margin: auto;
 }
 
-@media screen and (min-width: 800px) {
-
-  #map {
-      position: relative;
-      height: 600px;
-      width: 1080px;
-      max-width: 100%;
-      overflow: hidden;
-      margin: auto;
-  }
 
 .aboutUs {
   list-style: none;
+  color: #F5F2EF;
+  font-size: 1.3em;
 }
 
-.about-us img {
+.aboutUs img {
   border-radius: 50%;
   width: 20%;
+  border: 2px solid #1F1D1D;
+  box-shadow: 7px 7px #524B4B;
+  margin-top: 200px;
+}
 
+.aboutUs img:first-child {
+  margin-top: 100px;
+}
+
+.aboutUs p {
+  max-width:300px;
+  max-height: 300px;
+  border-radius: 5px;
+  border: 2px solid #FFFA6D;
+  background-color: rgba(82, 75, 75, 0.65);
+  float: right;
+  clear: both;
+  margin-right: 8%;
+  overflow: hidden;
 }
