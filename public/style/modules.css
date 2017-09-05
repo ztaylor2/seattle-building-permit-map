@@ -1,12 +1,22 @@
 #map {
     position: relative;
-    height: 600px;
-    min-width: 800px;
-    width: 1080px;
+    height: 900px;
+    width: 700px;
     max-width: 100%;
     overflow: hidden;
     margin: auto;
 }
+
+@media screen and (min-width: 800px) {
+
+  #map {
+      position: relative;
+      height: 600px;
+      width: 1080px;
+      max-width: 100%;
+      overflow: hidden;
+      margin: auto;
+  }
 
 .aboutUs {
   list-style: none;
@@ -15,4 +25,5 @@
 .about-us img {
   border-radius: 50%;
   width: 20%;
+
 }

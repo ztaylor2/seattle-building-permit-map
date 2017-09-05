@@ -1,8 +1,7 @@
 body {
-  background-image: url('http://bgfons.com/upload/industrial_texture687.jpg');
+  background-image: url('http://i.imgur.com/pyEkddd.jpg');
   height: 100%;
    background-position: center;
-   background-repeat: no-repeat;
    background-size: cover;
 }
 nav {
@@ -18,6 +17,8 @@ img {
 footer {
   width: 100%;
   text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 footer li {
   display: inline-block;
