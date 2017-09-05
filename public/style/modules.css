@@ -1,13 +1,8 @@
 #map {
     position: relative;
-<<<<<<< HEAD
     height: 37.5em;
     min-width: 50em;
     width: 62.5em;
-=======
-    height: 900px;
-    width: 700px;
->>>>>>> master
     max-width: 100%;
     overflow: hidden;
     margin: auto;
