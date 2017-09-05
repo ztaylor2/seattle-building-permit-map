@@ -20,16 +20,18 @@ function initMap() {
     url: 'https://data.seattle.gov/resource/i5jq-ms7b.json',
     method: 'GET',
   })
-    .then(function(data) {
-      for (var i = 0; i < data.length; i++) {
-        var coords = data[i].location.coordinates;
-        var latLng = new google.maps.LatLng(coords[1],coords[0]);
-        var marker = new google.maps.Marker({
-          position: latLng,
-          map: map
-        });
+    .then(data => data.filter(coord => coord.location !== undefined)).then(
+      function(data) {
+        for (var i = 0; i < data.length; i++) {
+          var coords = data[i].location.coordinates;
+          var latLng = new google.maps.LatLng(coords[1],coords[0]);
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+          });
+        }
       }
-    });
+    );
   }
 
   // app.mapView.eqfeed_callback
