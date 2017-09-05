@@ -29,6 +29,7 @@ footer li {
   margin:1rem auto;
   position: relative;
   background-color: rgba(0, 0, 0, 0.06);
+  z-index: -1;
 }
 img {
   max-width:100%
