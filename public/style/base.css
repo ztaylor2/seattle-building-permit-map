@@ -11,7 +11,7 @@ nav {
   z-index: 3;
 }
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 footer {
@@ -32,10 +32,7 @@ footer li {
   background-color: rgba(0, 0, 0, 0.06);
   z-index: -1;
 }
-img {
-  max-width:100%
 
-}
 #title {
   color: #00A000;
   background-color: rgba(0, 0, 0, 0.40);
