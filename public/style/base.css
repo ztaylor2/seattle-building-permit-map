@@ -4,6 +4,15 @@ body {
    background-position: center;
    background-size: cover;
 }
+header {
+  height:7em;
+  background:orange;
+  border:1px solid #CCC;
+  width:100%;
+  margin:0px auto;
+  padding-left: 0.5em;
+  text-align: center;
+}
 nav {
   width: 100%;
   height: 3em;
@@ -11,6 +20,8 @@ nav {
   z-index: 3;
 }
 img {
+  height: 25em;
+  width:100%;
   max-width: 100%;
 }
 
@@ -51,9 +62,8 @@ footer li a:active {
 }
 
 #title {
-  color: #00A000;
-  background-color: rgba(0, 0, 0, 0.40);
+  color: white;
   width:50%;
-  text-align:center;
+  text-align: left;
   font-family: 'Raleway', sans-serif;
 }
