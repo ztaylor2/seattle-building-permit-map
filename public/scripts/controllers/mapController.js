@@ -7,7 +7,6 @@ var app = app || {};
   mapController.init = () => {
         // this will show a dom element with an id of #about and hide all of its siblings (other dom elements in the same parent element)
     $('#map').show().siblings().hide();
-    console.log('map controller runs');
 
     // app.Permits.grabData();
   };
