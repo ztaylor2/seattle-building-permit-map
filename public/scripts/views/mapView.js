@@ -167,14 +167,13 @@ function initMap() {
         ]
       }
     ],
-            {name: 'Styled Map'});
+            {name: 'Permit Map'});
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 47.612538, lng: -122.333746},
     zoom: 13,
     mapTypeControlOptions: {
-    mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-          'styled_map']
+    mapTypeIds: ['styled_map', 'satellite']
     }
   });
 
@@ -193,12 +192,15 @@ function loadMarkers(data) {
 
   for (var i = 0; i < data.length; i++) {
 
+    // format date
     let permitDate = `${data[i].application_date}`.slice(0, -13);
+    // format value
+    let permitValue = `${data[i].value}`.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
     var content =
     `<h1>${data[i].permit_type}</h1>`+
     `<p>Date Issued: ${permitDate}</p>`+
     `<p>${data[i].description}</p>`+
-    `<p>$${data[i].value}</p>`+
+    `<p>$${permitValue}</p>`+
     `<p>${data[i].address}</p>`;
 
     // add a new info window for each marker
