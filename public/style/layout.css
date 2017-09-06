@@ -1,82 +1,72 @@
 #hamburger {
-  padding-top: 20px;
+  padding: 0.5em;
   font-size: 3em;
+  float: right;
 }
 
-/*OLD NAV BAR SAMMICH STYLE STUFF*/
-/*.menu {
-  display: none;
-  list-style: none;
-  margin-left: -15%;
-}
 
-.menuLi {
-  background-color: rgba(255, 255, 255, 0.75);
-  border-bottom: 2px solid white;
-  border-radius: 5px;
-  padding-right: 12px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2em;
-  z-index: 4;
-}*/
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    background-color: #FF8B07;
-    color: #F5F2EF;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #FF8B07;
+  color: #F5F2EF;
 }
 nav li img {
-    max-width: 100%;
-    width: 50%;
-    margin-top: -5.8em;
-    margin-left: 8em;
-    margin-right: 10em;
+  max-width: 100%;
+  width: 50%;
+  margin-top: -5.8em;
+  margin-left: 8em;
+  margin-right: 10em;
 }
 nav li {
-    float: right;
+  float: right;
 }
 
 nav li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+  background-color: red;
 }
 
 nav li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #FFFA6D;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #FFFA6D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 nav .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 nav .dropdown-content a:hover {background-color: #f1f1f1}
 
 nav .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 @media screen and (min-width: 800px) {
+
+  #hamburger {
+    display: none;
+  }
 
   nav {
     display: inline-block;
@@ -85,22 +75,13 @@ nav .dropdown:hover .dropdown-content {
     text-align: center;
   }
 
-  #hamburger {
-    display: none;
-  }
-
-  .menuLi {
-    display: inline-block;
-    font-size: 3em;
-  }
-
   #map {
-      position: relative;
-      height: 37.5em;
-      width: 62.5em;
-      max-width: 100%;
-      overflow: hidden;
-      margin: auto;
+    position: relative;
+    height: 37.5em;
+    width: 62.5em;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
   }
 
 

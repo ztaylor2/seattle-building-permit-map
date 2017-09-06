@@ -48,21 +48,11 @@ footer li a:active {
 }
 
 .hero-image {
-<<<<<<< HEAD
   margin:1em auto;
-  z-index: -1;
-}
-=======
-  max-width:960px;
-  margin: auto;
+  max-width: 100%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.06);
   z-index: -1;
-}
-
-.hero-image img {
-  width:100%;
-  max-width: 100%;
 }
 
 #title {
@@ -71,4 +61,3 @@ footer li a:active {
   text-align: left;
   font-family: 'Raleway', sans-serif;
 }
->>>>>>> master
