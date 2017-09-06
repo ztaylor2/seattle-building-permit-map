@@ -46,6 +46,11 @@ footer li a:active {
 }
 
 .hero-image {
+<<<<<<< HEAD
+  margin:1em auto;
+  z-index: -1;
+}
+=======
   max-width:960px;
   margin: auto;
   position: relative;
@@ -64,3 +69,4 @@ footer li a:active {
   text-align: left;
   font-family: 'Raleway', sans-serif;
 }
+>>>>>>> master
