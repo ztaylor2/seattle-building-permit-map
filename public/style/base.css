@@ -1,5 +1,5 @@
 body {
-  background-image: url('/img/concrete.jpg');
+  background-image: url('/img/chalkboard2.jpg');
 }
 header {
   height:7em;
@@ -30,15 +30,15 @@ footer li {
 }
 
 footer li a:link {
-    color: #EFC050;
+    color: #FF8B07;
 }
 
 footer li a:visited {
-  color: #EFC050;
+  color: #FF8B07;
 }
 
 footer li a:hover {
-    color: #004B8D;
+  color: #EFC050;
 }
 
 footer li a:active {
