@@ -193,9 +193,10 @@ function loadMarkers(data) {
 
   for (var i = 0; i < data.length; i++) {
 
+    let permitDate = `${data[i].application_date}`.slice(0, -13);
     var content =
-    `<p>${data[i].permit_type}</p>`+
-    `<p>${data[i].application_date}</p>`+
+    `<h1>${data[i].permit_type}</h1>`+
+    `<p>Date Issued: ${permitDate}</p>`+
     `<p>${data[i].description}</p>`+
     `<p>$${data[i].value}</p>`+
     `<p>${data[i].address}</p>`;
