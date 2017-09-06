@@ -184,6 +184,9 @@ function initMap() {
 
 }
 
+// define markers array for filters
+let markers = [];
+var marker;
 
 function loadMarkers(data) {
   console.log(data);
@@ -205,19 +208,23 @@ function loadMarkers(data) {
 
     var coords = data[i].location.coordinates;
     var latLng = new google.maps.LatLng(coords[1],coords[0]);
-    var marker = new google.maps.Marker({
+    marker = new google.maps.Marker({
       position: latLng,
       icon: '../../img/jackhammer2.png',
+      type: `${data[i].permit_type}`,
+      value: `${data[i].value}`,
       map: map
     })
 
+    // populate markers array for filters
+    markers.push(marker);
+
     // add info window event listener to each marker
     google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){
-            return function() {
-               infowindow.setContent(content);
-               infowindow.open(map,marker);
-            };
-        })(marker,content,infowindow));
-
+      return function() {
+        infowindow.setContent(content);
+        infowindow.open(map,marker);
+      };
+    })(marker,content,infowindow));
   }
 }
