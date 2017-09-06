@@ -56,7 +56,8 @@ footer li a:active {
 }
 
 #title {
-  position: relative;
-  top: -3.3em;
-  right: -0.5em;
+  color: white;
+  width:50%;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
 }

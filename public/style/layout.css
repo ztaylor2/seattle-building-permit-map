@@ -66,13 +66,6 @@ nav .dropdown:hover .dropdown-content {
     display: none;
   }
 
-  #title {
-    color: white;
-    width:50%;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-  }
-
   nav {
     display: inline-block;
     width: 100%;
