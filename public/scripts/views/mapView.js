@@ -170,8 +170,8 @@ function initMap() {
             {name: 'Styled Map'});
 
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 47.618288, lng: -122.351767},
-    zoom: 12,
+    center: {lat: 47.612538, lng: -122.333746},
+    zoom: 13,
     mapTypeControlOptions: {
     mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
           'styled_map']
