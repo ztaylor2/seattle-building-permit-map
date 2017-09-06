@@ -1,26 +1,23 @@
 #hamburger {
   padding: 0.5em;
   font-size: 3em;
-  float: right;
 }
 
-
 nav ul {
+  /*display: none;*/
   list-style-type: none;
   margin: 0;
   overflow: hidden;
   background-color: #FF8B07;
   color: #F5F2EF;
 }
-nav li img {
-  max-width: 100%;
-  width: 50%;
-  margin-top: -5.8em;
-  margin-left: 8em;
-  margin-right: 10em;
-}
+
 nav li {
   float: right;
+}
+
+nav li img {
+  display: none;
 }
 
 nav li a, .dropbtn {
@@ -32,7 +29,7 @@ nav li a, .dropbtn {
 }
 
 nav li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #524B4B;
 }
 
 nav li.dropdown {
@@ -73,6 +70,23 @@ nav .dropdown:hover .dropdown-content {
     width: 100%;
     margin-left: 0;
     text-align: center;
+  }
+
+  nav ul {
+    display: inline-block;
+  }
+
+  nav li {
+    float: right;
+  }
+
+  nav li img {
+    display: inline-block;
+    max-width: 100%;
+    width: 50%;
+    margin-top: -5.8em;
+    margin-left: 8em;
+    margin-right: 10em;
   }
 
   #map {
