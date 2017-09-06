@@ -1,8 +1,5 @@
 body {
-  background-image: url('http://i.imgur.com/pyEkddd.jpg');
-  height: 100%;
-   background-position: center;
-   background-size: cover;
+  background-image: url('/img/concrete.jpg');
 }
 header {
   height:7em;
@@ -23,7 +20,7 @@ nav {
 footer {
   width: 100%;
   text-align: center;
-  color: white;
+  color: #F2F2F2;
   font-family: 'Raleway', sans-serif;
 }
 footer li {
@@ -33,19 +30,19 @@ footer li {
 }
 
 footer li a:link {
-    color: blue;
+    color: #EFC050;
 }
 
 footer li a:visited {
-    color: #4C6A92;
+  color: #EFC050;
 }
 
 footer li a:hover {
-    color: #DC4C46;
+    color: #004B8D;
 }
 
 footer li a:active {
-    color: #838487;
+    color: #F2F2F2;
 }
 
 .hero-image {
