@@ -56,7 +56,7 @@ nav .dropdown-content a {
   padding-right: 20px;
 }
 
-nav .dropdown-content a:hover {background-color: #f1f1f1}
+nav .dropdown-content a:hover {background-color: #FFFA6D}
 
 nav .dropdown:hover .dropdown-content {
   display: block;
