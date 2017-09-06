@@ -1,10 +1,14 @@
 body {
-  background-image: url('http://i.imgur.com/pyEkddd.jpg');
-  height: 100%;
-   background-position: center;
-   background-size: cover;
-   padding:0;
-   margin:0;
+  background-image: url('/img/chalkboard2.jpg');
+}
+header {
+  height:7em;
+  background:orange;
+  border:1px solid #CCC;
+  width:100%;
+  margin:0px auto;
+  padding-left: 0.5em;
+  text-align: center;
 }
 nav {
   width: 100%;
@@ -16,7 +20,7 @@ nav {
 footer {
   width: 100%;
   text-align: center;
-  color: white;
+  color: #F2F2F2;
   font-family: 'Raleway', sans-serif;
 }
 footer li {
@@ -26,22 +30,43 @@ footer li {
 }
 
 footer li a:link {
-    color: blue;
+    color: #FF8B07;
 }
 
 footer li a:visited {
-    color: #4C6A92;
+  color: #FF8B07;
 }
 
 footer li a:hover {
-    color: #DC4C46;
+  color: #EFC050;
 }
 
 footer li a:active {
-    color: #838487;
+    color: #F2F2F2;
 }
 
 .hero-image {
+<<<<<<< HEAD
   margin:1em auto;
   z-index: -1;
 }
+=======
+  max-width:960px;
+  margin: auto;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.06);
+  z-index: -1;
+}
+
+.hero-image img {
+  width:100%;
+  max-width: 100%;
+}
+
+#title {
+  color: white;
+  width:50%;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+>>>>>>> master

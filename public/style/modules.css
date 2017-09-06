@@ -1,8 +1,6 @@
 #map {
     position: relative;
-    height: 37.5em;
-    min-width: 50em;
-    width: 62.5em;
+    height: 30em;
     max-width: 100%;
     overflow: hidden;
     margin: auto;

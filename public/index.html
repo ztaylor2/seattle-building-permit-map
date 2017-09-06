@@ -16,7 +16,7 @@
     <meta property="og:title" content="Where's the Construction" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://wheres-the-construction.herokuapp.com/" />
-    <meta property="og:image" content="img/seattle.png" />
+    <meta property="og:image" content="/img/seattle.png" />
 
     <!-- Favicon meta tags -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -26,6 +26,8 @@
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Viewport meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
   <body>
@@ -83,7 +85,7 @@
     crossorigin="anonymous"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZsIpGjvTxN4SveCG7uZutz6NOLRAmGSo&callback=initMap"
-    async defer></script>
+    defer></script>
 
     <script type="text/javascript" src="scripts/views/mapView.js"></script>
     <script type="text/javascript" src="scripts/models/permits.js"></script>
@@ -95,7 +97,7 @@
     <script type="text/javascript" src="scripts/controllers/routes.js"></script>
 
     <script type="text/javascript">
-      app.Permits.grabData();
+        app.Permits.grabData();
     </script>
   </body>
 </html>
