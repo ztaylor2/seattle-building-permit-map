@@ -39,8 +39,8 @@
 
   #map {
       position: relative;
-      height: 600px;
-      width: 1080px;
+      height: 37.5em;
+      width: 62.5em;
       max-width: 100%;
       overflow: hidden;
       margin: auto;
