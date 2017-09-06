@@ -17,22 +17,26 @@
   border-radius: 50%;
   width: 20%;
   border: 2px solid #1F1D1D;
-  box-shadow: 7px 7px #524B4B;
-  margin-top: 200px;
+  box-shadow: 7px 7px #1F1D1D;
+  float: left;
+  clear: left;
 }
 
 .aboutUs img:first-child {
-  margin-top: 100px;
+  margin-top: 5px;
 }
 
 .aboutUs p {
-  max-width:300px;
-  max-height: 300px;
+  max-width:350px;
+  max-height: auto;
   border-radius: 5px;
   border: 2px solid #FFFA6D;
   background-color: rgba(82, 75, 75, 0.65);
-  float: right;
+  box-shadow: 7px 7px #1F1D1D;
+  margin-left: 10%;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
   clear: both;
-  margin-right: 8%;
-  overflow: hidden;
 }
