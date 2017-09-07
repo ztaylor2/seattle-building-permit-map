@@ -6,11 +6,11 @@ var app = app || {};
   const Permits = {};
 
   Permits.grabData = function() {
-      $.ajax({
+    $.ajax({
       url: 'https://data.seattle.gov/resource/i5jq-ms7b.json',
       method: 'GET',
     })
-      .then(data => data.filter(coord => coord.location !== undefined)).then(loadMarkers);
+    .then(data => data.filter(coord => coord.location !== undefined)).then(loadMarkers);
   }
 
   module.Permits = Permits;
