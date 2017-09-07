@@ -1,5 +1,5 @@
 'use strict';
- // With help of Stack Overflow
+
 $(document).ready(function(){
   var menu = $('.menu');
   $('#hamburger').on('click', function(){
