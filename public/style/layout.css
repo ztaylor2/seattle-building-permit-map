@@ -94,17 +94,20 @@ nav .dropdown:hover .dropdown-content {
     display: inline-block;
     max-width: 100%;
     width: 50%;
-    margin-top: -5em;
+    margin-top: -5.8em;
     margin-left: 8em;
     margin-right: 10em;
   }
 
   nav li a, .dropbtn {
+    position: relative;
     display: inline-block;
     color: #F5F2EF;
+    font-size: 1.2em;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em .1em;
     text-decoration: none;
+    z-index: 1;
   }
 
   #map {
