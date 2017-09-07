@@ -15,7 +15,7 @@ nav ul {
 nav li {
   display: block;
   margin-right: .4em;
-  padding: .5em .2em;
+  padding: .1em .1em;
   border-bottom: 1px solid #ccc;
 }
 
@@ -94,7 +94,7 @@ nav .dropdown:hover .dropdown-content {
     display: inline-block;
     max-width: 100%;
     width: 50%;
-    margin-top: -4em;
+    margin-top: -5em;
     margin-left: 8em;
     margin-right: 10em;
   }
@@ -106,8 +106,6 @@ nav .dropdown:hover .dropdown-content {
     padding: 14px 16px;
     text-decoration: none;
   }
-
-
 
   #map {
     position: relative;
