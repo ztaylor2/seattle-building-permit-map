@@ -4,7 +4,7 @@
 }
 
 nav ul {
-  /*display: none;*/
+  display: block;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -13,8 +13,10 @@ nav ul {
 }
 
 nav li {
-  float: right;
-  margin-right: 20px;
+  display: block;
+  margin-right: .4em;
+  padding: .5em .2em;
+  border-bottom: 1px solid #ccc;
 }
 
 nav li img {
@@ -22,7 +24,7 @@ nav li img {
 }
 
 nav li a, .dropbtn {
-  display: inline-block;
+  display: block;
   color: #F5F2EF;
   text-align: center;
   padding: 14px 16px;
@@ -34,7 +36,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 }
 
 nav li.dropdown {
-  display: inline-block;
+  display: block;
 }
 
 nav .dropdown-content {
@@ -85,16 +87,28 @@ nav .dropdown:hover .dropdown-content {
 
   nav li {
     float: right;
+    display: inline-block;
+    border-bottom: none;
   }
 
   nav li img {
     display: inline-block;
     max-width: 100%;
     width: 50%;
-    margin-top: -5.8em;
+    margin-top: -4em;
     margin-left: 8em;
     margin-right: 10em;
   }
+
+  nav li a, .dropbtn {
+    display: inline-block;
+    color: #F5F2EF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
 
   #map {
     position: relative;
@@ -103,6 +117,14 @@ nav .dropdown:hover .dropdown-content {
     max-width: 100%;
     overflow: hidden;
     margin: auto;
+  }
+
+  #title {
+    color: white;
+    width: 20%;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    float: left;
   }
 
 

@@ -57,7 +57,7 @@ footer li a:active {
 
 #title {
   color: white;
-  width:50%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
 }
