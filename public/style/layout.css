@@ -6,7 +6,8 @@
 nav ul {
   display: block;
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #FF8B07;
   color: #F5F2EF;
@@ -14,8 +15,8 @@ nav ul {
 
 nav li {
   display: block;
-  margin-right: 2em;
-  padding: .1em .1em;
+  /*margin-right: .5em;*/
+  /*padding: .1em .1em;*/
   border-bottom: 1px solid #524B4B;
 }
 
@@ -82,6 +83,7 @@ nav .dropdown:hover .dropdown-content {
 
   nav ul {
     display: inline-block;
+    width: 100%;
   }
 
   nav li {
@@ -92,9 +94,10 @@ nav .dropdown:hover .dropdown-content {
 
   nav li img {
     display: inline-block;
+    position: relative;
     max-width: 100%;
-    width: 50%;
-    margin-top: -5.8em;
+    width: 40%;
+    margin-top: -100px;
     margin-left: 8em;
     margin-right: 10em;
   }
@@ -105,7 +108,7 @@ nav .dropdown:hover .dropdown-content {
     color: #F5F2EF;
     font-size: 1.2em;
     text-align: center;
-    padding: 1em .1em;
+    padding: 1.5em 1.5em;
     text-decoration: none;
     z-index: 1;
   }
@@ -121,10 +124,13 @@ nav .dropdown:hover .dropdown-content {
 
   #title {
     color: white;
-    width: 20%;
+    font-size: 1.5em;
+    width: 50%;
     text-align: left;
     font-family: 'Raleway', sans-serif;
     float: left;
+    padding-left: 3%;
+    padding-top: .25em;
   }
 
 
