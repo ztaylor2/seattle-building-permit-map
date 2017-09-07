@@ -67,8 +67,7 @@ nav .dropdown-content a:hover {background-color: #FFFA6D}
 nav .dropdown:hover .dropdown-content {
   display: block;
 }
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 799px) {
 
   #hamburger {
     display: none;
