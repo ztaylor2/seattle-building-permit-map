@@ -14,9 +14,9 @@ nav ul {
 
 nav li {
   display: block;
-  margin-right: .4em;
+  margin-right: 2em;
   padding: .1em .1em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #524B4B;
 }
 
 nav li img {
