@@ -15,12 +15,14 @@ nav ul {
 
 nav li {
   display: block;
-  /*margin-right: .5em;*/
-  /*padding: .1em .1em;*/
   border-bottom: 1px solid #524B4B;
 }
 
-nav li img {
+.about {
+  border-top: 1px solid #524B4B;
+}
+
+.title-icon {
   display: none;
 }
 
@@ -92,14 +94,13 @@ nav .dropdown:hover .dropdown-content {
     border-bottom: none;
   }
 
-  nav li img {
+  .title-icon {
     display: inline-block;
-    position: relative;
+    position: absolute;
     max-width: 100%;
-    width: 40%;
-    margin-top: -100px;
-    margin-left: 8em;
-    margin-right: 10em;
+    width: 25%;
+    top: .4em;
+    left: 38%;
   }
 
   nav li a, .dropbtn {
@@ -131,6 +132,10 @@ nav .dropdown:hover .dropdown-content {
     float: left;
     padding-left: 3%;
     padding-top: .25em;
+  }
+
+  .about {
+    border-top: none;
   }
 
 
