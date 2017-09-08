@@ -16,6 +16,7 @@ nav ul {
 nav li {
   display: block;
   border-bottom: 1px solid #524B4B;
+  font-family: 'Raleway', sans-serif;
 }
 
 .about {
