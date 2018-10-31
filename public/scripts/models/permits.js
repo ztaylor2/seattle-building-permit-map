@@ -7,7 +7,7 @@ var app = app || {};
 
   Permits.grabData = function() {
     $.ajax({
-      url: 'https://data.seattle.gov/resource/i5jq-ms7b.json',
+      url: 'https://data.seattle.gov/resource/k44w-2dcq.json',
       method: 'GET',
     })
     .then(data => data.filter(coord => coord.location !== undefined)).then(loadMarkers);
