@@ -10,7 +10,7 @@ var app = app || {};
       url: 'https://data.seattle.gov/resource/k44w-2dcq.json',
       method: 'GET',
     })
-    .then(data => data.filter(coord => coord.location !== undefined)).then(loadMarkers);
+    .then(data => data.filter(coord => coord.location_2 !== undefined)).then(loadMarkers);
   }
 
   module.Permits = Permits;
